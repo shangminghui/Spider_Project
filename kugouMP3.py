@@ -4,6 +4,7 @@ from selenium import webdriver
 import urllib
 from urllib import request
 from tkinter import *
+from selenium.webdriver.common.keys import Keys
 
 
 
@@ -62,3 +63,13 @@ if __name__ == '__main__':
 
 
 
+# dirver=webdriver.Chrome()
+# dirver.get("http://www.kugou.com")
+# assert u"酷狗音乐 - 就是歌多" in dirver.title
+# elem=dirver.find_element_by_tag_name("input")
+# elem.clear()
+# elem.send_keys(u"周杰伦")
+# elem.send_keys(Keys.RETURN)
+# time.sleep(3)
+# assert u"周杰伦." not in dirver.page_source
+# dirver.close()
